@@ -19,8 +19,10 @@ def index(user_code: str):
     peopleList = os.listdir(dataPath)
     face_knows = []
     face_knows_name = []
+    if(user_code=="favicon.ico"):
+        return {"persona":"no encontrada"}
     for nameDir in peopleList:
-        if ".png" not in nameDir or nameDir == '.DS_Store':
+        if ".png" not in nameDir or nameDir == '.DS_Store' :
             continue
         personPath = os.path.join(dataPath, nameDir)
         known_i = face_recognition.load_image_file(personPath)
