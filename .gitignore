@@ -122,3 +122,5 @@ dmypy.json
 cython_debug/
 face_/
 videos/
+
+output.avi
