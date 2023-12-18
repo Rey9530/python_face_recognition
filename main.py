@@ -19,7 +19,7 @@ def index(user_code: str):
     peopleList = os.listdir(dataPath)
     face_knows = []
     face_knows_name = []
-    if(user_code=="favicon.ico"):
+    if(user_code=="favicon.ico" or user_code=="robots.txt.png"):
         return {"persona":"no encontrada"}
     for nameDir in peopleList:
         if ".png" not in nameDir or nameDir == '.DS_Store' :
