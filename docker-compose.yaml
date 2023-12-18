@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    ports:
+      - "8000:8000"
+    container_name: python-api
+    volumes:
+      - volumen_db:/app/imgs 
+      - volumen_db_temp:/app/imgs_scan
+    networks:
+      - network-mar 
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+
+networks:
+  network-mar:
+    external: true
+
+volumes:
+  volumen_db:
+    external: true
+  volumen_db_temp:
+    external: true

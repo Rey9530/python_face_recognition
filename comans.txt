@@ -1,0 +1,1030 @@
+. ./env/bin/activate
+ 5049  pip install imutils
+ 5050  pip install numpy
+ 5051  pip install opencv-contrib-python
+ 5052  ll
+ 5053  mkdri fotos
+ 5054  mkdir fotos
+ 5055  cd fotos
+ 5056  pwd
+ 5057  clear
+ 5058  uvicorn main:app --reload
+ 5059  clear
+ 5060  ll
+ 5061  cd ..
+ 5062  ll
+ 5063  uvicorn main:app --reload
+ 5064  clear
+ 5065  uvicorn main:app --reload
+ 5066  pip install python-multipart
+ 5067  clear
+ 5068  uvicorn main:app --reload
+ 5069  source /Users/relex/Documents/python/tutorial/env/bin/activate
+ 5070  ll
+ 5071  cd fotos
+ 5072  ll
+ 5073  rm -r .DS_Store
+ 5074  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-1283jeo3QDJ3lVLL.txt"
+ 5075  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-6543T1yClJBDRJLU.txt"
+ 5076  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-7475dJvGLkXuA5sz.txt"
+ 5077  . ./env/bin/activate
+ 5078  uvicorn main:app --reload
+ 5079  clear
+ 5080  uvicorn main:app --reload
+ 5081  ll
+ 5082  clear
+ 5083  uvicorn main:app --reload
+ 5084  . ./env/bin/deactivate
+ 5085  cd ./env/bin/
+ 5086  deactivate
+ 5087  clear
+ 5088  cd ..
+ 5089  ll
+ 5090  clear
+ 5091  . ./env/bin/deactivate
+ 5092  . ./env/bin/activate
+ 5093  uvicorn main:app --reload
+ 5094  ps -fA | grep python
+ 5095  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-1135Na6rWDB1GisQ.txt"
+ 5096  clear
+ 5097  pwd
+ 5098  . ./env/bin/activate
+ 5099  uvicorn main:app --reload
+ 5100  ps -fA | grep python
+ 5101  kill 4208
+ 5102  uvicorn main:app --reload
+ 5103  ps -fA | grep python
+ 5104  kill 4208
+ 5105  kill 1143
+ 5106  ps -fA | grep python
+ 5107  sudo lsof -i:8000
+ 5108  kill -9 4208
+ 5109  uvicorn main:app --reload
+ 5110  kill -9 8448
+ 5111  uvicorn main:app --reload
+ 5112  kill -9 8505
+ 5113  clear
+ 5114  uvicorn main:app --reload
+ 5115  kill -9 8569
+ 5116  uvicorn main:app --reload
+ 5117  kill -9 8628
+ 5118  uvicorn main:app --reload
+ 5119  kill -9 8673
+ 5120  uvicorn main:app --reload
+ 5121  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-1236c4KvVuMF508e.txt"
+ 5122  rintenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-1050oUmYjOPdp6Qb.txt"
+ 5123  clear
+ 5124  flutter clean && flutter pub get && flutter build ipa --no-tree-shake-icons
+ 5125  clear
+ 5126  flutter clean && flutter pub get && flutter build apk --no-tree-shake-icons
+ 5127  clear
+ 5128  flutter clean && flutter pub get && flutter build apk --no-tree-shake-icons
+ 5129  git add .
+ 5130  git commit -m "Fix bugs to hacks apis"
+ 5131  git push
+ 5132  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-1250NQO2XwZts6Qv.txt"
+ 5133  . ./env/bin/activate
+ 5134  clear
+ 5135  uvicorn main:app --reload
+ 5136  cd Documents
+ 5137  cd nodejs
+ 5138  clear
+ 5139  mkdir face
+ 5140  cd face
+ 5141  clear
+ 5142  code .
+ 5143  npm install 
+ 5144  node faceDetection reynaldo.png
+ 5145  source /Users/relex/Documents/python/tutorial/env/bin/activate
+ 5146  clear
+ 5147  uvicorn main:app --reload
+ 5148  source /Users/relex/Documents/python/tutorial/env/bin/activate
+ 5149  cd fotos
+ 5150  rm -r .DS_Store
+ 5151  pip install matplotlib
+ 5152  clear
+ 5153  cd f
+ 5154  ll
+ 5155  rm -r .DS_Store
+ 5156  clear
+ 5157  rm -r .DS_Store
+ 5158  kill -9 4330
+ 5159  clear
+ 5160  uvicorn main:app --reload
+ 5161  kill -9 7187
+ 5162  clear
+ 5163  uvicorn main:app --reload
+ 5164  deactivate
+ 5165  clear
+ 5166  docker-compose up -d
+ 5167  clear
+ 5168  cd Documents
+ 5169  clear
+ 5170  ll
+ 5171  mkdir nestjs
+ 5172  cd nestjs
+ 5173  clear
+ 5174  nest new face-recognition
+ 5175  node --version
+ 5176  nvm list
+ 5177  clear
+ 5178  nvm use 20
+ 5179  npm i -g @nestjs/cli
+ 5180  clear
+ 5181  nest new face-recognition
+ 5182  cd face-recognition
+ 5183  clear
+ 5184  code .
+ 5185  yarn install
+ 5186  clear
+ 5187  yarn run star:dev
+ 5188  yarn run start:dev
+ 5189  yarn add @nestjs/config
+ 5190  clear
+ 5191  yarn add @nestjs/typeorm typeorm
+ 5192  cd ..
+ 5193  cd doc
+ 5194  cd docker
+ 5195  ll
+ 5196  cd ..
+ 5197  cd db
+ 5198  ll
+ 5199  cd db_reconocimiento_facial
+ 5200  clear
+ 5201  ll
+ 5202  cat docker-compose.yaml
+ 5203  cat .env
+ 5204  clear
+ 5205  docker-compose up -d
+ 5206  clear
+ 5207  docker-compose up -d
+ 5208  clear
+ 5209  docker-compose up -d
+ 5210  yarn add pg
+ 5211  yarn run start:dev
+ 5212  clear
+ 5213  yarn run start:dev
+ 5214  clear
+ 5215  nest g res companies --no-spec
+ 5216  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-1877PGTGZwBsBTj8.txt"
+ 5217  clear
+ 5218  flutter devices
+ 5219  clear
+ 5220  flutter devices
+ 5221  flutter run -d A2D54FB6-B08E-494E-88A5-EA8FAF24A886  --enable-software-rendering
+ 5222  clear
+ 5223  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-162284g3JMdns0Foe.txt"
+ 5224  clear
+ 5225  yarn run start:dev
+ 5226  clear
+ 5227  nest g res users --no-spec
+ 5228  node -v
+ 5229  nvm use 20
+ 5230  clear
+ 5231  nest g res users --no-spec
+ 5232  clear
+ 5233  nest g res employes --no-spec
+ 5234  clear
+ 5235  nest g res projects --no-spec
+ 5236  clear
+ 5237  nest g res markings --no-spec
+ 5238  clear
+ 5239  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-1548Ft7mAJxlzMQH.txt"
+ 5240  clear
+ 5241  node -v
+ 5242  clear
+ 5243  nvm use 20
+ 5244  clear
+ 5245  nest g res seed --no-spec
+ 5246  clear
+ 5247  yarn run start:dev
+ 5248  clear
+ 5249  yarn run start:dev
+ 5250  clear
+ 5251  yarn add @nestjs/swagger
+ 5252  clear
+ 5253  yarn add class-validator class-transformer
+ 5254  clear
+ 5255  yarn add bcrypt
+ 5256  clear
+ 5257  yarn add @types/bcrypt
+ 5258  yarn remove @types/bcrypt
+ 5259  yarn add -D @types/bcrypt
+ 5260  clear
+ 5261  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-12281a2w6Rouw6OOd.txt"
+ 5262  git add .
+ 5263  git commit -m "Fix bugs in resend 2af"
+ 5264  clear
+ 5265  flutter clean && flutter pub get && flutter build appbundle --no-tree-shake-icons
+ 5266  clear
+ 5267  flutter clean && flutter pub get && flutter build ipa --no-tree-shake-icons
+ 5268  clear
+ 5269  flutter clean && flutter pub get && flutter build ipa --no-tree-shake-icons
+ 5270  flutter build appbundle --no-tree-shake-icons
+ 5271  nest g res auth --no-spec
+ 5272  nvm use 20
+ 5273  nest g res auth --no-spec
+ 5274  clear
+ 5275  yarn add @nestjs/passport passport passport-local
+ 5276  yarn add @nestjs/jwt passport-jwt
+ 5277  yarn add -D @types/passport-jwt
+ 5278  clear
+ 5279  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-1971ef8fJ4SqT183.txt"
+ 5280  nvm use 20
+ 5281  yarn run start:dev
+ 5282  nest -h
+ 5283  nvm use 20
+ 5284  nest -h
+ 5285  nest g gu auth/guards/user-role --no-spec
+ 5286  clear
+ 5287  nest g d auth/decorators/roleProtected --no-spec
+ 5288  yarn run start:dev
+ 5289  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-12732LVgZsKHD7e6u.txt"
+ 5290  flutter build apk --no-tree-shake-icons
+ 5291  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-1216p3iGW9PMnjad.txt"
+ 5292  clear
+ 5293  nvm use 20
+ 5294  nvm --help
+ 5295  clear
+ 5296  node -v
+ 5297  clear
+ 5298  node -v
+ 5299  clear
+ 5300  yarn run start:dev
+ 5301  clear
+ 5302  yarn run start:dev
+ 5303  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-6517qJ8px6X1ZA3u.txt"
+ 5304  clear
+ 5305  flutter build appbundle --no-tree-shake-icons
+ 5306  clear
+ 5307  echo  "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-6517qJ8px6X1ZA3u.txt"
+ 5308  echo  /var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-6517qJ8px6X1ZA3u.txt
+ 5309  nano  /var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-6517qJ8px6X1ZA3u.txt
+ 5310  clear
+ 5311  flutter clean && flutter pub get && flutter build appbundle --no-tree-shake-icons
+ 5312  clear
+ 5313  flutter clean && flutter pub get && flutter build ipa --no-tree-shake-icons
+ 5314  yarn run start:dev
+ 5315  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-21526YsT1y6k0B7PW.txt"
+ 5316  flutter build appbundle --no-tree-shake-icons
+ 5317  clear
+ 5318  flutter build appbundle --no-tree-shake-icons
+ 5319  clear
+ 5320  flutter build ipa --no-tree-shake-icons
+ 5321  clea
+ 5322  clear
+ 5323  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-1635jA6SX1lf4VBv.txt"
+ 5324  clear
+ 5325  ll
+ 5326  cd ..
+ 5327  cd face-recognition
+ 5328  clear
+ 5329  yarn remove @nestjs/typeorm
+ 5330  node -v
+ 5331  npm install -g yarn
+ 5332  clear
+ 5333  yarn remove @nestjs/typeorm
+ 5334  yarn remove typeorm
+ 5335  clear
+ 5336  yarn add -D prisma
+ 5337  clear
+ 5338  npx prisma
+ 5339  clear
+ 5340  npx prisma init
+ 5341  cd ..
+ 5342  cd nodejs
+ 5343  ll
+ 5344  cd api_administracion
+ 5345  code .
+ 5346  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-4315pDjz5O5mzAhi.txt"
+ 5347  clear
+ 5348  npx prisma migrate dev --name init
+ 5349  clear
+ 5350  npx prisma migrate dev --name init
+ 5351  cd ..
+ 5352  cd nestjs
+ 5353  cd face-recognition
+ 5354  clear
+ 5355  npx prisma migrate dev --name init
+ 5356  clear
+ 5357  npx prisma migrate dev --name initv2
+ 5358  clear
+ 5359  npx prisma migrate dev --name initV3
+ 5360  npx prisma migrate dev --name initV4
+ 5361  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-107403W46eVZehvPv.txt"
+ 5362  npx prisma migrate dev --name init
+ 5363  clear
+ 5364  npx prisma migrate dev --name init
+ 5365  clear
+ 5366  yarn run start:dev
+ 5367  clear
+ 5368  yarn run start:dev
+ 5369  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-1118SrQc8nVyWmjX.txt"
+ 5370  clear
+ 5371  yarn run start:dev
+ 5372  npx prisma migrate dev --name fixEmpleado
+ 5373  clear
+ 5374  yarn run start:dev
+ 5375  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-12800nLVrBjeud7va.txt"
+ 5376  yarn install
+ 5377  clear
+ 5378  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-23573k78WfPr73Me.txt"
+ 5379  clear
+ 5380  npm install -g @angular/cli
+ 5381  clear
+ 5382  git push
+ 5383  clear
+ 5384  flutter build apk apk  --no-tree-shake-icons
+ 5385  flutter build apk --no-tree-shake-icons
+ 5386  clear
+ 5387  flutter build apk --no-tree-shake-icons
+ 5388  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-40853Pm10HUUfUDbS.txt"
+ 5389  clear
+ 5390  git add .
+ 5391  git commit -m "Init"
+ 5392  clear
+ 5393  git branch -M main
+ 5394  git remote add origin https://github.com/Rey9530/backend-face-recognition.git
+ 5395  git push -u origin main
+ 5396  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-439738nN5InucGmI4.txt"
+ 5397  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-1233qgRQAI7m0zM9.txt"
+ 5398  clear
+ 5399  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-11343EzQyk5Qu7ttn.txt"
+ 5400  clear
+ 5401  gut pull
+ 5402  git pull
+ 5403  clear
+ 5404  yarn start:dev
+ 5405  flutter clean && flutter pub get
+ 5406  clear
+ 5407  git add .
+ 5408  git commit -m "CRUD employes 100%"
+ 5409  clear
+ 5410  git add .
+ 5411  git commit -m "CRUD company 100%"
+ 5412  git push
+ 5413  clear
+ 5414  git add .
+ 5415  git commit -m "Fix bugs"
+ 5416  git push
+ 5417  clear
+ 5418  git commit -m "Add jailbreak && not screenshot"
+ 5419  clear
+ 5420  flutter clean && flutter pub get && flutter build apk --no-tree-shake-icons
+ 5421  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-56514DZuILrcW0iV8.txt"
+ 5422  git push
+ 5423  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-2306p2uI9QtKAvFb.txt"
+ 5424  flutter build apk --no-tree-shake-icons
+ 5425  flutter build ipa --no-tree-shake-icons
+ 5426  flutter build appbundle --no-tree-shake-icons
+ 5427  clear
+ 5428  git commit -m "deploy 1.5.4"
+ 5429  flutter build apk --no-tree-shake-icons
+ 5430  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-10754sew0dIgYh3K7.txt"
+ 5431  clear
+ 5432  flutter build apk --no-tree-shake-icons
+ 5433  clear
+ 5434  cd Documents
+ 5435  cd app_flutter
+ 5436  git clone https://github.com/Rey9530/frontend-app-facial.git
+ 5437  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-45827kIjXmA9EIPQW.txt"
+ 5438  clear
+ 5439  flutter build apk --no-tree-shake-icons
+ 5440  cd frontend-app-facial
+ 5441  code .
+ 5442  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-48164khIE6kj1Z6ca.txt"
+ 5443  flutter upgrade
+ 5444  brew install --cask minisim
+ 5445  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-57101uD0SlbDrT0Gg.txt"
+ 5446  clear
+ 5447  git add .
+ 5448  git commit -m "Add dialogs "
+ 5449  clear
+ 5450  git push
+ 5451  git add .
+ 5452  git commit -m "Add dialogs success marcacion "
+ 5453  clear
+ 5454  git add .
+ 5455  git commit -m "Habilitate camera"
+ 5456  git push
+ 5457  cd Documents
+ 5458  cd app_flutter
+ 5459  git clone https://github.com/Rey9530/fronend-face-recognition-admin.git
+ 5460  cd frontend-app-facial
+ 5461  cd ..
+ 5462  cd fronend-face-recognition-admin
+ 5463  clear
+ 5464  code .
+ 5465  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-1480ZwxOJzFXaxEI.txt"
+ 5466  cd Documents/nestjs
+ 5467  ll
+ 5468  cd face-recognition
+ 5469  ll
+ 5470  clear
+ 5471  code .
+ 5472  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-5560U8NW2MyEi3ke.txt"
+ 5473  clear
+ 5474  yarn start:dev
+ 5475  clear
+ 5476  git pull
+ 5477  clear
+ 5478  yarn start:dev
+ 5479  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-14872agUATKiT9q3n.txt"
+ 5480  flutter build apk --no-tree-shake-icons
+ 5481  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-45503bgiCf7gww8X3.txt"
+ 5482  git add .
+ 5483  git commit -m "Login Funtionality && route init"
+ 5484  git push
+ 5485  rintenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-1230TSnq8DyYs7LM.txt"
+ 5486  flutter build apk --no-tree-shake-icons
+ 5487  clear
+ 5488  flutter clean && flutter pub get && flutter build apk --no-tree-shake-icons
+ 5489  clear
+ 5490  git add .
+ 5491  git commit -m "Request money other wallets && request money by link && change api to create payment method && fix bugs"
+ 5492  git push
+ 5493  clear
+ 5494  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-31073P0qoCLMju4R7.txt"
+ 5495  flutter clean && flutter pub get && flutter build apk --no-tree-shake-icons
+ 5496  clear
+ 5497  git add .
+ 5498  git commit -m "Fix bugs"
+ 5499  git push
+ 5500  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-4008CNfjKVoaWwW3.txt"
+ 5501  clear
+ 5502  git pull
+ 5503  clear
+ 5504  yarn start:dev
+ 5505  git pull
+ 5506  clear
+ 5507  npx prisma migrate dev --name days
+ 5508  clear
+ 5509  yarn start:dev
+ 5510  clear
+ 5511  pwd
+ 5512  cd /Users/relex/Documents/nestjs/face-recognition
+ 5513  clear
+ 5514  yarn start:dev
+ 5515  clear
+ 5516  cd ..
+ 5517  ll
+ 5518  cd ..
+ 5519  cd app_flutter
+ 5520  ll
+ 5521  cd fronend-face-recognition-admin
+ 5522  code .
+ 5523  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-66074B9Im2p1KVmu.txt"
+ 5524  clear
+ 5525  git pull
+ 5526  clear
+ 5527  cd Documents
+ 5528  cd nestjs
+ 5529  clear
+ 5530  ll
+ 5531  git clone https://github.com/tkssharma/nestjs-microservices.git
+ 5532  cd nestjs-microservices
+ 5533  clear\code .
+ 5534  code .
+ 5535  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-15946NsUyvneHkjo4.txt"
+ 5536  clear
+ 5537  cd ..
+ 5538  mkdir ms-grpc
+ 5539  cd ms-grpc
+ 5540  clear
+ 5541  cd ..
+ 5542  ll
+ 5543  cd .. 
+ 5544  cd nodejs
+ 5545  clear
+ 5546  ll
+ 5547  cd api_administracion
+ 5548  code .
+ 5549  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-21278sMl6bNqEqCYC.txt"
+ 5550  code .
+ 5551  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-223998xcMRPo4hNVd.txt"
+ 5552  docker-compose up -d
+ 5553  code .
+ 5554  docker-compose up -d
+ 5555  clear
+ 5556  docker-compose up -d
+ 5557  clear
+ 5558  mkdir grpc-nest-proto
+ 5559  nest new grpc-nest-api-gateway -p npm
+ 5560  nest new grpc-nest-auth-svc -p npm
+ 5561  nest new grpc-nest-product-svc -p npm
+ 5562  nest new grpc-nest-order-svc -p npm
+ 5563  cd grpc-nest-proto
+ 5564  npm init --y\n
+ 5565  git init\n
+ 5566  mkdir proto
+ 5567  touch proto/auth.proto && touch proto/product.proto && touch proto/order.proto
+ 5568  cd ..
+ 5569  cd grpc-nest-api-gateway
+ 5570  npm i @nestjs/microservices @grpc/grpc-js @grpc/proto-loader
+ 5571  npm i -D @types/node ts-proto
+ 5572  nest g mo auth && nest g co auth --no-spec && nest g s auth --no-spec
+ 5573  nest g mo product && nest g co product --no-spec
+ 5574  nest g mo order && nest g co order --no-spec
+ 5575  touch src/auth/auth.guard.ts
+ 5576  clear
+ 5577  npm run proto:install && npm run proto:all
+ 5578  cd ..
+ 5579  cd grpc-nest-proto
+ 5580  git add .
+ 5581  git commit -m "first commit"\n
+ 5582  git branch -M main
+ 5583  git remote add origin https://github.com/Rey9530/grpc-nest-proto.git
+ 5584  git push -u origin main
+ 5585  clear
+ 5586  cd ..
+ 5587  cd grpc-nest-api-gateway
+ 5588  clear
+ 5589  npm run proto:install && npm run proto:all
+ 5590  brew install protobuf
+ 5591  clear
+ 5592  npm run proto:install && npm run proto:all
+ 5593  clear
+ 5594  npm run start:dev
+ 5595  cd ..
+ 5596  cd  grpc-nest-auth-svc
+ 5597  npm i @nestjs/microservices @nestjs/typeorm @nestjs/jwt @nestjs/passport passport passport-jwt typeorm pg class-transformer class-validator bcryptjs
+ 5598  cd ..
+ 5599  cd grpc-nest-auth-svc
+ 5600  npm i @nestjs/microservices @nestjs/typeorm @nestjs/jwt @nestjs/passport passport passport-jwt typeorm pg class-transformer class-validator bcryptjs
+ 5601  npm i -D @types/node @types/passport-jwt ts-proto
+ 5602  nest g mo auth && nest g co auth --no-spec
+ 5603  mkdir src/auth/filter && mkdir src/auth/service && mkdir src/auth/strategy
+ 5604  touch src/auth/filter/http-exception.filter.ts
+ 5605  touch src/auth/service/auth.service.ts\n
+ 5606  touch src/auth/service/jwt.service.ts
+ 5607  touch src/auth/strategy/jwt.strategy.ts
+ 5608  touch src/auth/auth.dto.ts
+ 5609  touch src/auth/auth.entity.ts
+ 5610  npm run proto:install && npm run proto:auth
+ 5611  clear
+ 5612  npm run start:dev
+ 5613  npm install @grpc/grpc-js
+ 5614  clear
+ 5615  npm run start:dev
+ 5616  cd ..
+ 5617  cd grpc-nest-order-svc\n
+ 5618  ll
+ 5619  cd ms-grpc
+ 5620  cd grpc-nest-order-svc\n
+ 5621  npm i @nestjs/microservices @grpc/grpc-js @grpc/proto-loader @nestjs/typeorm typeorm pg class-transformer class-validator
+ 5622  npm i -D @types/node ts-proto
+ 5623  nest g mo order && nest g co order --no-spec && nest g s order --no-spec
+ 5624  mkdir src/order/proto
+ 5625  touch src/order/order.dto.ts\n
+ 5626  touch src/order/order.entity.ts\n
+ 5627  npm run proto:install && npm run proto:all\n
+ 5628  npm run start:dev
+ 5629  cd grpc-nest-auth-svc
+ 5630  yarn start:dev
+ 5631  clear
+ 5632  yarn start:dev
+ 5633  cd grpc-nest-api-gateway
+ 5634  yarn start:dev
+ 5635  clear
+ 5636  yarn start:dev
+ 5637  npm run proto:install && npm run proto:auth\n
+ 5638  yarn start:dev
+ 5639  cd grpc-nest-product-svc
+ 5640  yarn start:dev
+ 5641  npm i @nestjs/microservices @grpc/grpc-js @grpc/proto-loader @nestjs/typeorm typeorm pg class-transformer class-validator
+ 5642  npm i -D @types/node ts-proto
+ 5643  nest g mo product && nest g co product --no-spec && nest g s product --no-spec
+ 5644  mkdir src/product/entity
+ 5645  touch src/product/product.dto.ts
+ 5646  touch src/product/entity/product.entity.ts
+ 5647  touch src/product/entity/stock-decrease-log.entity.ts
+ 5648  npm run proto:install && npm run proto:product
+ 5649  clear
+ 5650  npm run proto:install && npm run proto:product
+ 5651  clear
+ 5652  npm run start:dev
+ 5653  curl -X POST http://localhost:3000/auth/register -H "Content-Type: application/json" -d '{"email": "elon@gmail.com", "password": "12345678"}'
+ 5654  curl -X PUT http://localhost:3000/auth/login -H "Content-Type: application/json" -d '{"email": "elon@gmail.com", "password": "12345678"}'\n
+ 5655  curl -X POST http://localhost:3000/product -H "Content-Type: application/json" -d '{"name": "Test A", "sku": "A00001", "price": 100, "stock": 5}'\n
+ 5656  curl -X POST http://localhost:3000/order -H "Content-Type: application/json" -d '{"productId": 1, "quantity": 1}'
+ 5657  curl -X POST http://localhost:3000/order -H "Content-Type: application/json;authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJlbG9uQGdtYWlsLmNvbSIsImlhdCI6MTcwMTc1NzM4MCwiZXhwIjoxNzMzMjkzMzgwfQ.w7ftZcv4ZOq2wisrrf-fcy7UAUoUeKXlFvs_mtFFtbE " -d '{"productId": 1, "quantity": 1}'
+ 5658  curl -X POST http://localhost:3000/order -H "Content-Type: application/json " -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJlbG9uQGdtYWlsLmNvbSIsImlhdCI6MTcwMTc1NzM4MCwiZXhwIjoxNzMzMjkzMzgwfQ.w7ftZcv4ZOq2wisrrf-fcy7UAUoUeKXlFvs_mtFFtbE " -d '{"productId": 1, "quantity": 1}'
+ 5659  curl -X POST http://localhost:3000/order -H "Content-Type: application/json; Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJlbG9uQGdtYWlsLmNvbSIsImlhdCI6MTcwMTc1NzM4MCwiZXhwIjoxNzMzMjkzMzgwfQ.w7ftZcv4ZOq2wisrrf-fcy7UAUoUeKXlFvs_mtFFtbE" -d '{"productId": 1, "quantity": 1}'
+ 5660  curl -X POST http://localhost:3000/order -H "Content-Type: application/json; Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJlbG9uQGdtYWlsLmNvbSIsImlhdCI6MTcwMTc1NzM4MCwiZXhwIjoxNzMzMjkzMzgwfQ.w7ftZcv4ZOq2wisrrf-fcy7UAUoUeKXlFvs_mtFFtbE" -d '{"productId": 1, "quantity": 1}'
+ 5661  yarn start:dev
+ 5662  npm run start:dev
+ 5663  yarn start:dev
+ 5664  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-1275ypBMxy4lDAA8.txt"
+ 5665  git pull
+ 5666  cd Documents/nestjs/face-recognition
+ 5667  yarn start:dev
+ 5668  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-3495NnA0svm5t67x.txt"
+ 5669  code .
+ 5670  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-15716sA6r8jW92JvB.txt"
+ 5671  yarn start:dev
+ 5672  git add .
+ 5673  git commit -m "Add feature"
+ 5674  git push
+ 5675  git pull
+ 5676  git reset --soft HEAD~1
+ 5677  git pull
+ 5678  git add .
+ 5679  git commit -m "Add feature"
+ 5680  git push
+ 5681  clear
+ 5682  git add .
+ 5683  git commit -m "Employes 90%"
+ 5684  clear
+ 5685  git push
+ 5686  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-118554CB57SijFyv.txt"
+ 5687  git pull
+ 5688  clear
+ 5689  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-2633Dn2XesD1xhwQ.txt"
+ 5690  clear
+ 5691  git pull
+ 5692  yarn start:dev
+ 5693  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-4954R9A5GSX3ozpJ.txt"
+ 5694  git pull
+ 5695  flutter clean && flutter pub get && flutter build apk --no-tree-shake-icons
+ 5696  clear
+ 5697  flutter clean && flutter pub get && flutter build apk --no-tree-shake-icons
+ 5698  clear
+ 5699  cd an
+ 5700  cd android
+ 5701  ./gradlew signingReport
+ 5702  clear
+ 5703  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-23756gqzbfd7SikSg.txt"
+ 5704  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-34128tdrtpPSTNZSC.txt"
+ 5705  clear
+ 5706  cd ..
+ 5707  ll
+ 5708  git clone https://github.com/Klerith/nest-teslo-shop.git
+ 5709  cd nest-teslo-shop
+ 5710  clear
+ 5711  code .
+ 5712  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-35416wsfqODFkIWjj.txt"
+ 5713  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-36059W0La0OEQrnhV.txt"
+ 5714  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-37500NO9oTr4J2ThB.txt"
+ 5715  clear
+ 5716  yarn start:dev
+ 5717  clear
+ 5718  git add .
+ 5719  git commit -m "Change password added"
+ 5720  git push
+ 5721  git add .
+ 5722  git commit -m "Change password added"
+ 5723  git push
+ 5724  clear
+ 5725  git add .
+ 5726  git commit -m "IU report added"
+ 5727  clear 
+ 5728  git push
+ 5729  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-1434ksjzaRxtbSRn.txt"
+ 5730  clear
+ 5731  cd ..
+ 5732  ll
+ 5733  curl https://static.snyk.io/cli/latest/snyk-macos -o snyk
+ 5734  clear
+ 5735  yarn start:dev
+ 5736  git pull
+ 5737  clear
+ 5738  npx prisma migrate dev --name init
+ 5739  clear
+ 5740  npx prisma migrate dev --name init
+ 5741  clear
+ 5742  npx prisma migrate dev --name init
+ 5743  clear
+ 5744  npx prisma migrate dev --name init
+ 5745  clear
+ 5746  cd ..
+ 5747  cd app_flutter
+ 5748  clear
+ 5749  ll
+ 5750  cd fronend-face-recognition-admin
+ 5751  code .
+ 5752  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-5360kAfPVMLu0on5.txt"
+ 5753  clear
+ 5754  git pull
+ 5755  clear
+ 5756  git status
+ 5757  clear
+ 5758  git add .
+ 5759  git commit -m "Proyects 50%"
+ 5760  clear
+ 5761  git ps
+ 5762  git pull
+ 5763  git status
+ 5764  clear
+ 5765  git add .
+ 5766  git commit -m "Proyects 100%"
+ 5767  clear
+ 5768  git push
+ 5769  git add .
+ 5770  git commit -m "Proyects 100%"
+ 5771  git status
+ 5772  clear
+ 5773  git commit -m "Contracts 100%"
+ 5774  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-1135qKORkzcIccL6.txt"
+ 5775  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-1137gNYR2x3G4Ue6.txt"
+ 5776  clear
+ 5777  git pull
+ 5778  clear
+ 5779  yarn start:dev
+ 5780  git pull
+ 5781  clear
+ 5782  npx prisma migrate dev --name init
+ 5783  clear
+ 5784  npx prisma migrate dev --name init
+ 5785  yarn add -D prisma@latest
+ 5786  yarn add @prisma/client@latest
+ 5787  clear
+ 5788  npx prisma migrate dev --name init
+ 5789  clear
+ 5790  npx prisma migrate dev --name init
+ 5791  clear
+ 5792  flutter --version
+ 5793  clear
+ 5794  git add .
+ 5795  git commit -m "Seed updated"
+ 5796  clear
+ 5797  git push
+ 5798  clear
+ 5799  flutter build show
+ 5800  flutter build -h
+ 5801  clear
+ 5802  git add .
+ 5803  git commit -m "Contracts 100%"
+ 5804  clear
+ 5805  git push
+ 5806  clear
+ 5807  git add .
+ 5808  git commit -m "Fix bugs"
+ 5809  clear
+ 5810  git push
+ 5811  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-1363qwdp56TVN49K.txt"
+ 5812  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-1362o5IKDiA4CxuU.txt"
+ 5813  clear
+ 5814  git pull
+ 5815  clear
+ 5816  yarn start:dev
+ 5817  clear
+ 5818  yarn start:dev
+ 5819  npx prisma reset
+ 5820  prisma reset
+ 5821  npx prisma --help
+ 5822  npx prisma migrate reset
+ 5823  clear
+ 5824  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-1127MYDTKIXzAFVZ.txt"
+ 5825  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-1128Q6BN4UnHbyNZ.txt"
+ 5826  clear
+ 5827  yarn start:dev
+ 5828  clear
+ 5829  cd var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/
+ 5830  cd /var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/
+ 5831  ll
+ 5832  clear
+ 5833  nano tmp-1127MYDTKIXzAFVZ.txt
+ 5834  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-1127MYDTKIXzAFVZ.txt"
+ 5835  nano tmp-1127MYDTKIXzAFVZ.txt
+ 5836  rm tmp-1127MYDTKIXzAFVZ.txt
+ 5837  nano tmp-1127MYDTKIXzAFVZ.txt
+ 5838  history
+ 5839  clear
+ 5840  printenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-7458UPUTIVB4RTGt.txt"
+ 5841  nano "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-7458UPUTIVB4RTGt.txt"
+ 5842  clear
+ 5843  npx prisma migrate reset
+ 5844  npx prisma migrate dev --name init
+ 5845  clear
+ 5846  yarn start:dev
+ 5847  clear
+ 5848  npx prisma migrate reset
+ 5849  clear
+ 5850  npx prisma migrate dev --name init2
+ 5851  clear
+ 5852  npx prisma migrate dev --name asi_codhorNull
+ 5853  npx prisma migrate dev --name asi_codhorNotNull
+ 5854  clear
+ 5855  git add .
+ 5856  git commit -m "Contracts 90%"
+ 5857  clear
+ 5858  git push
+ 5859  clear
+ 5860  git add .
+ 5861  git commit -m "Contracts 90%"
+ 5862  clear
+ 5863  git push
+ 5864  clear
+ 5865  git add .
+ 5866  git commit -m "Dashboard 20"
+ 5867  clear
+ 5868  git push
+ 5869  git add .
+ 5870  git commit -m "fix bugs"
+ 5871  git push
+ 5872  clear
+ 5873  git pull
+ 5874  clear
+ 5875  flutter build apk --no-tree-shake-icons
+ 5876  clear
+ 5877  git pull
+ 5878  clear
+ 5879  git add .
+ 5880  git commit -m "Serfinsa"
+ 5881  clear
+ 5882  git push
+ 5883  clear
+ 5884  flutter build apk --no-tree-shake-icons
+ 5885  clear
+ 5886  yarn start:dev
+ 5887  clear
+ 5888  yarn add @nestjs/swagger swagger-ui-express
+ 5889  clear
+ 5890  yarn start:dev
+ 5891  clear
+ 5892  cd Documents/
+ 5893  ll
+ 5894  clear
+ 5895  mkdri pruebas
+ 5896  mkdir pruebas
+ 5897  cd pruebas
+ 5898  git clone https://github.com/Rey9530/prueba_tecnica_front.git
+ 5899  ll
+ 5900  cd prueba_tecnica_front
+ 5901  clear
+ 5902  code .
+ 5903  git remote -v
+ 5904  git remote add backup https://gitlab.com/rey95/prueba_tecnica.git
+ 5905  git push backup main
+ 5906  clear
+ 5907  git remote -v
+ 5908  cd ../..
+ 5909  cd Documents
+ 5910  cd app_flutter
+ 5911  clear
+ 5912  ll
+ 5913  git clone https://github.com/Rey9530/mar_admin_cel.git
+ 5914  cd mar_admin_cel
+ 5915  clear
+ 5916  code .
+ 5917  cd ..
+ 5918  cd nestjs
+ 5919  clear
+ 5920  git clone https://github.com/Rey9530/mar_backend_nestjs.git
+ 5921  cd mar_backend_nestjs
+ 5922  code .
+ 5923  yarn start:dev
+ 5924  clear
+ 5925  yarn 
+ 5926  yarn start:dev
+ 5927  clear
+ 5928  yarn start:dev
+ 5929  npx prisma migrate dev --name addOrderToHourDetails
+ 5930  clear
+ 5931  git remote -v
+ 5932  clear
+ 5933  git add .
+ 5934  git commit -m "Schedules100%"
+ 5935  clear
+ 5936  git push
+ 5937  clear
+ 5938  git add .
+ 5939  git commit -m "Schedules100%"
+ 5940  git push
+ 5941  clear
+ 5942  yarn build
+ 5943  cp package.json dist/package.json
+ 5944  cp package-lock.json  dist/package-lock.json
+ 5945  cd /Users/relex/Documents/pruebas/dist
+ 5946  clear
+ 5947  yarn install
+ 5948  clear
+ 5949  ll
+ 5950  mode main.js
+ 5951  node main.js
+ 5952  clear
+ 5953  node main.js
+ 5954  npx prisma generate
+ 5955  clear
+ 5956  npx prisma generate
+ 5957  clear
+ 5958  git pull
+ 5959  clear
+ 5960  docker-compose up -d
+ 5961  clear
+ 5962  docker-compose up -d
+ 5963  clear
+ 5964  docker-compose up -d
+ 5965  clear
+ 5966  docker-compose up -d
+ 5967  clear
+ 5968  docker-compose up -d
+ 5969  clear
+ 5970  docker-compose up -d
+ 5971  clear
+ 5972  docker-compose up -d
+ 5973  clear
+ 5974  docker-compose up -d
+ 5975  clear
+ 5976  docker-compose up -d
+ 5977  clear
+ 5978  git stash
+ 5979  git checkout develop
+ 5980  git branch develop
+ 5981  git checkout develop
+ 5982  git stash pop
+ 5983  clear
+ 5984  git add .
+ 5985  git commit -m "Show face in camera"
+ 5986  clear
+ 5987  git push
+ 5988  git push --set-upstream origin develop
+ 5989  clear
+ 5990  git pull
+ 5991  clear
+ 5992  flutter clean && flutter pub get
+ 5993  clear
+ 5994  flutter clean && flutter pub get
+ 5995  flutter upgrade
+ 5996  clear
+ 5997  flutter build apk --no-tree-shake-icons
+ 5998  clear
+ 5999  git commit -m "Add input to mount 0 in serfinza
+ 6000  git commit -m "Add input to mount 0 in serfinza"
+ 6001  git add .
+ 6002  clear
+ 6003  git commit -m "Add input to mount 0 in serfinza"
+ 6004  cleaer
+ 6005  clear
+ 6006  git push
+ 6007  clear
+ 6008  flutter pub outdated
+ 6009  flutter pub upgrade --major-versions
+ 6010  clear
+ 6011  git commit -m "Change to number"
+ 6012  clear
+ 6013  git push
+ 6014  clear
+ 6015  yarn start:dev
+ 6016  npx prisma generate
+ 6017  clear
+ 6018  npx prisma generate
+ 6019  clear
+ 6020  npx prisma generate
+ 6021  yarn start:dev
+ 6022  clear
+ 6023  git add .
+ 6024  git commit -m "Captura Vide and send"
+ 6025  clear
+ 6026  git push
+ 6027  clear
+ 6028  ll
+ 6029  source face/bin/activate
+ 6030  pip list
+ 6031  ll
+ 6032  cd face
+ 6033  ll
+ 6034  clear
+ 6035  rintenv > "/var/folders/8q/567j_lm506n83c5gxw417wf40000gn/T/tmp-4099V6MSgYJegfVn.txt"
+ 6036  python main.py
+ 6037  python3 main.py
+ 6038  ll
+ 6039  source env/bin/activate
+ 6040  python main.py
+ 6041  clear
+ 6042  history
+ 6043  clear
+ 6044  uvicorn main:app --reload
+ 6045  pip freeze
+ 6046  pip install face_recognition
+ 6047  pip uninstall face_recognition
+ 6048  clear
+ 6049  deactivate
+ 6050  clear
+ 6051  cd ..
+ 6052  ll
+ 6053  mkdir face_recognition
+ 6054  cd face_recognition
+ 6055  clear
+ 6056  python -m venv face_
+ 6057  python3 -m venv face_
+ 6058  ll
+ 6059  cd face_
+ 6060  clear
+ 6061  ll
+ 6062  source bin/activate
+ 6063  exit
+ 6064  ource /Users/relex/Documents/python/tutorial/env/bin/activate
+ 6065  omz update
+ 6066  ll
+ 6067  cd ..
+ 6068  ll
+ 6069  cd face_recognition
+ 6070  clear
+ 6071  code .
+ 6072  source bin/activate
+ 6073  source face_bin/activate
+ 6074  source face_/bin/activate
+ 6075  clear
+ 6076  pip install cv2
+ 6077  pip install --upgrade pi
