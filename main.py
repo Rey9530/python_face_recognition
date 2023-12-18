@@ -32,6 +32,7 @@ def index(user_code: str):
                 face_knows.append(img_encoding)
                 face_knows_name.append(nameDir)
 
+    print(dataPathScan+"/"+user_code+".png")
     unknown_image = face_recognition.load_image_file(dataPathScan+"/"+user_code+".png")
     unknown_encoding = face_recognition.face_encodings(unknown_image)[0]
 
