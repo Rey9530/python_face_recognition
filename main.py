@@ -16,13 +16,15 @@ dataPathScan = "./imgs_scan"
 
 @app.get("/{user_code}")
 def index(user_code: str):
+    file_to_scan = dataPathScan+"/"+user_code+".png"
+    existe = os.path.isfile(file_to_scan)
+    if(existe==False):
+        return {"persona":"no encontrada"}
     peopleList = os.listdir(dataPath)
     face_knows = []
-    face_knows_name = []
-    if(user_code=="favicon.ico" or user_code=="robots.txt.png"):
-        return {"persona":"no encontrada"}
+    face_knows_name = [] 
     for nameDir in peopleList:
-        if ".png" not in nameDir or nameDir == '.DS_Store' :
+        if ".png" not in nameDir :
             continue
         personPath = os.path.join(dataPath, nameDir)
         known_i = face_recognition.load_image_file(personPath)
@@ -34,14 +36,13 @@ def index(user_code: str):
                 face_knows.append(img_encoding)
                 face_knows_name.append(nameDir)
 
-    print(dataPathScan+"/"+user_code+".png")
-    unknown_image = face_recognition.load_image_file(dataPathScan+"/"+user_code+".png")
+    print(file_to_scan)
+    unknown_image = face_recognition.load_image_file(file_to_scan)
     unknown_encoding = face_recognition.face_encodings(unknown_image)[0]
 
     results = face_recognition.compare_faces(face_knows, unknown_encoding,0.4)
     print(peopleList)
-    print(results)
-
+    print(results) 
 
     try: 
         indice = results.index(True)
